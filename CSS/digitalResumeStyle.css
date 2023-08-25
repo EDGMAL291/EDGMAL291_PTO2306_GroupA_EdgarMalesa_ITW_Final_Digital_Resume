@@ -32,8 +32,8 @@ body{
 /* Profile Picture */
 .profile_div {
     position: absolute;
-    top: 150px;
-    right: 100px;
+    top: 100px;
+    left: 100px;
 }
 
 #picture {
@@ -45,7 +45,7 @@ body{
 
 /* Header Text */
 .header_text {
-  text-align: center;
+    margin: 200px 0 0 600px;
   color: #333;
 }
 
@@ -59,13 +59,16 @@ body{
 
 /* Sections */
 article h2 {
-  color: whitesmoke;
-  background-color: black;
+  color: black;
   padding: 20px;
+  margin-top: 200px;
+}
+.content2{
+    margin-left: 60%;
 }
 
 article h3 {
-  color: #555;
+  color: #555
 }
 
 article p, article ul {
