@@ -1,21 +1,91 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
 }
 
-header{
-    background-color: black;
-    color: antiquewhite;
-    position: relative;
-    padding-top: 250px;
+/* Navigation Bar */
+.nav {
+  background-color: #000000;
+  overflow: hidden;
+  position:fixed;
+  top: 0;
+  right: 0.5px;
+  width: 100%;
+  z-index: 100;
+  margin: auto;
+  padding: 10px;
 }
-#picture{
-    position: absolute;
-    top: 100px;
-    left: 300px;
-    border-radius: 20px;
+
+.nav a {
+  float: right;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
 }
-.header_text{
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Profile Picture */
+.profile_div {
     position: absolute;
-    top: 20px ;    
-    right:0;
+    top: 150px;
+    right: 100px;
+}
+
+#picture {
+  border-radius: 200px;
+}
+#image{
+    text-decoration-color: purple;
+}
+
+/* Header Text */
+.header_text {
+  text-align: center;
+  color: #333;
+}
+
+.career_titles {
+  font-weight: bold;
+}
+
+.introductory-statement {
+  font-style: italic;
+}
+
+/* Sections */
+article h2 {
+  color: whitesmoke;
+  background-color: black;
+  padding: 20px;
+}
+
+article h3 {
+  color: #555;
+}
+
+article p, article ul {
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  padding: 10px 0;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+footer a {
+  color: #f2f2f2;
+  padding: 5px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ddd;
 }
