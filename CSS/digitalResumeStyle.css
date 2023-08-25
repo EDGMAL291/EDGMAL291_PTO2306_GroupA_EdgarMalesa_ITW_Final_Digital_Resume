@@ -126,8 +126,16 @@ label, input, textarea {
     padding: 5px;
 }
 input, textarea{
+    background-color: #7b3232;
+    border-top: none ;
+    border-right: none;
+    border-left: none;
+    border-bottom:whitesmoke solid;
     font-size: larger;
+    font-display: white;
+    outline: none;
 }
+
 
 input[type="submit"] {
     background-color: lightblue;
