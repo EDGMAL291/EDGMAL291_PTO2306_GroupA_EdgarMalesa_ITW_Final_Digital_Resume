@@ -167,21 +167,23 @@ article{
 #experience{
   padding-bottom: 20px;
 }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width:1000px) {
   .nav {
     flex-direction: row;
     align-items: center;
     width: 100%;
   }
   .profile_div {
-    top: 200px;
+    top: 100px;
     left: 50px;
   }
   #picture{
-    width: 100px;
+    width: 20em;
   }
   #hero{
     height: 600px;
+    width:100%;
+
   }
   .container{
     display: grid;
@@ -189,6 +191,8 @@ article{
   }
   .header_text {
     margin: 100px 0 0 200px;
+    position: relative;
+    left: 19em;
   }
   article h2 {
     font-size: 30px;
@@ -205,38 +209,69 @@ article{
     margin-left: 200px; 
   }
 }
+/*mobile*/
 @media only screen and (max-width: 375px) {
   .nav {
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
+
   .profile_div {
-    top: 200px;
+    top: 150px;
+    left: 150px;
   }
-  #picture{
-    width: 100px;
-  }
-  header{
-    height: 600px;
-    width: 375px;
-  }
+
   .header_text {
-    margin: 100px 0 0 200px;
-  }
-  article h2 {
-    font-size: 30px;
-    left: 90px;
+    margin: 100px 0 0 50px;
+    position: relative;
     top: 150px;
   }
+
+  article h2 {
+    font-size: 30px;
+    left: 0; 
+    top: 0;
+    text-align: center;
+  }
+
   .content2 {
-    margin-left: 300px; 
+    margin-left: 0;
+    background-size: contain;
+    padding: 25px;
+    height:350px;
   }
 
   form {
-    width: 300px; 
-    margin-top: -460px; 
-    margin-left: 200px; 
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0; 
   }
-}
 
+  #hero {
+    width: 100%;
+    background-size: cover;
+  }
+  footer{
+  width: 375;
+  padding: 20px;
+  margin: 0 auto;
+  bottom: 100px;
+  padding-bottom: 20px;
+}
+article{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#skills{
+  margin-top: 0;
+  padding-top: -10px;
+}
+#education{
+  height: 700px;
+}
+#experience{
+  height: 800px;
+}
+}
